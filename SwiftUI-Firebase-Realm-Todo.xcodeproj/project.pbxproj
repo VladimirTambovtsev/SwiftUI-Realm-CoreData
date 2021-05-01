@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E79BE343263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */; };
+		E79BE345263DCA99009985BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE344263DCA99009985BB /* ContentView.swift */; };
+		E79BE347263DCA9D009985BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79BE346263DCA9D009985BB /* Assets.xcassets */; };
+		E79BE34A263DCA9D009985BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79BE349263DCA9D009985BB /* Preview Assets.xcassets */; };
+		E79BE34C263DCA9D009985BB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE34B263DCA9D009985BB /* Persistence.swift */; };
+		E79BE34F263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79BE34D263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld */; };
+		E79BE35A263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE359263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift */; };
+		E79BE365263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE364263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E79BE356263DCA9D009985BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79BE337263DCA99009985BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79BE33E263DCA99009985BB;
+			remoteInfo = "SwiftUI-Firebase-Realm-Todo";
+		};
+		E79BE361263DCA9D009985BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79BE337263DCA99009985BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E79BE33E263DCA99009985BB;
+			remoteInfo = "SwiftUI-Firebase-Realm-Todo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E79BE33F263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Firebase-Realm-Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Firebase_Realm_TodoApp.swift; sourceTree = "<group>"; };
+		E79BE344263DCA99009985BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E79BE346263DCA9D009985BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E79BE349263DCA9D009985BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E79BE34B263DCA9D009985BB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E79BE34E263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftUI_Firebase_Realm_Todo.xcdatamodel; sourceTree = "<group>"; };
+		E79BE350263DCA9D009985BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79BE355263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Firebase-Realm-TodoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BE359263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Firebase_Realm_TodoTests.swift; sourceTree = "<group>"; };
+		E79BE35B263DCA9D009985BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79BE360263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Firebase-Realm-TodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E79BE364263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Firebase_Realm_TodoUITests.swift; sourceTree = "<group>"; };
+		E79BE366263DCA9D009985BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E79BE33C263DCA99009985BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE352263DCA9D009985BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE35D263DCA9D009985BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E79BE336263DCA99009985BB = {
+			isa = PBXGroup;
+			children = (
+				E79BE341263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */,
+				E79BE358263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests */,
+				E79BE363263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests */,
+				E79BE340263DCA99009985BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E79BE340263DCA99009985BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE33F263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo.app */,
+				E79BE355263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests.xctest */,
+				E79BE360263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79BE341263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */,
+				E79BE344263DCA99009985BB /* ContentView.swift */,
+				E79BE346263DCA9D009985BB /* Assets.xcassets */,
+				E79BE34B263DCA9D009985BB /* Persistence.swift */,
+				E79BE350263DCA9D009985BB /* Info.plist */,
+				E79BE34D263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld */,
+				E79BE348263DCA9D009985BB /* Preview Content */,
+			);
+			path = "SwiftUI-Firebase-Realm-Todo";
+			sourceTree = "<group>";
+		};
+		E79BE348263DCA9D009985BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE349263DCA9D009985BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E79BE358263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE359263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift */,
+				E79BE35B263DCA9D009985BB /* Info.plist */,
+			);
+			path = "SwiftUI-Firebase-Realm-TodoTests";
+			sourceTree = "<group>";
+		};
+		E79BE363263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE364263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift */,
+				E79BE366263DCA9D009985BB /* Info.plist */,
+			);
+			path = "SwiftUI-Firebase-Realm-TodoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E79BE33E263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BE369263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-Todo" */;
+			buildPhases = (
+				E79BE33B263DCA99009985BB /* Sources */,
+				E79BE33C263DCA99009985BB /* Frameworks */,
+				E79BE33D263DCA99009985BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI-Firebase-Realm-Todo";
+			productName = "SwiftUI-Firebase-Realm-Todo";
+			productReference = E79BE33F263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E79BE354263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BE36C263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoTests" */;
+			buildPhases = (
+				E79BE351263DCA9D009985BB /* Sources */,
+				E79BE352263DCA9D009985BB /* Frameworks */,
+				E79BE353263DCA9D009985BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79BE357263DCA9D009985BB /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Firebase-Realm-TodoTests";
+			productName = "SwiftUI-Firebase-Realm-TodoTests";
+			productReference = E79BE355263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E79BE35F263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E79BE36F263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoUITests" */;
+			buildPhases = (
+				E79BE35C263DCA9D009985BB /* Sources */,
+				E79BE35D263DCA9D009985BB /* Frameworks */,
+				E79BE35E263DCA9D009985BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E79BE362263DCA9D009985BB /* PBXTargetDependency */,
+			);
+			name = "SwiftUI-Firebase-Realm-TodoUITests";
+			productName = "SwiftUI-Firebase-Realm-TodoUITests";
+			productReference = E79BE360263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E79BE337263DCA99009985BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E79BE33E263DCA99009985BB = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					E79BE354263DCA9D009985BB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E79BE33E263DCA99009985BB;
+					};
+					E79BE35F263DCA9D009985BB = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = E79BE33E263DCA99009985BB;
+					};
+				};
+			};
+			buildConfigurationList = E79BE33A263DCA99009985BB /* Build configuration list for PBXProject "SwiftUI-Firebase-Realm-Todo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E79BE336263DCA99009985BB;
+			productRefGroup = E79BE340263DCA99009985BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E79BE33E263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */,
+				E79BE354263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests */,
+				E79BE35F263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E79BE33D263DCA99009985BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BE34A263DCA9D009985BB /* Preview Assets.xcassets in Resources */,
+				E79BE347263DCA9D009985BB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE353263DCA9D009985BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE35E263DCA9D009985BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E79BE33B263DCA99009985BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BE34F263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld in Sources */,
+				E79BE34C263DCA9D009985BB /* Persistence.swift in Sources */,
+				E79BE345263DCA99009985BB /* ContentView.swift in Sources */,
+				E79BE343263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE351263DCA9D009985BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BE35A263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E79BE35C263DCA9D009985BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79BE365263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E79BE357263DCA9D009985BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79BE33E263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */;
+			targetProxy = E79BE356263DCA9D009985BB /* PBXContainerItemProxy */;
+		};
+		E79BE362263DCA9D009985BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E79BE33E263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */;
+			targetProxy = E79BE361263DCA9D009985BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E79BE367263DCA9D009985BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E79BE368263DCA9D009985BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E79BE36A263DCA9D009985BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Firebase-Realm-Todo/Preview Content\"";
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-Todo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E79BE36B263DCA9D009985BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-Firebase-Realm-Todo/Preview Content\"";
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-Todo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-Todo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E79BE36D263DCA9D009985BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-TodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Firebase-Realm-Todo.app/SwiftUI-Firebase-Realm-Todo";
+			};
+			name = Debug;
+		};
+		E79BE36E263DCA9D009985BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-TodoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-TodoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-Firebase-Realm-Todo.app/SwiftUI-Firebase-Realm-Todo";
+			};
+			name = Release;
+		};
+		E79BE370263DCA9D009985BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Firebase-Realm-Todo";
+			};
+			name = Debug;
+		};
+		E79BE371263DCA9D009985BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KKN37UUKG9;
+				INFOPLIST_FILE = "SwiftUI-Firebase-Realm-TodoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.tambovtsev.SwiftUI-Firebase-Realm-TodoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI-Firebase-Realm-Todo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E79BE33A263DCA99009985BB /* Build configuration list for PBXProject "SwiftUI-Firebase-Realm-Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BE367263DCA9D009985BB /* Debug */,
+				E79BE368263DCA9D009985BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79BE369263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-Todo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BE36A263DCA9D009985BB /* Debug */,
+				E79BE36B263DCA9D009985BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79BE36C263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BE36D263DCA9D009985BB /* Debug */,
+				E79BE36E263DCA9D009985BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E79BE36F263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E79BE370263DCA9D009985BB /* Debug */,
+				E79BE371263DCA9D009985BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E79BE34D263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E79BE34E263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodel */,
+			);
+			currentVersion = E79BE34E263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodel */;
+			path = SwiftUI_Firebase_Realm_Todo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E79BE337263DCA99009985BB /* Project object */;
+}
