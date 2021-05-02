@@ -1,0 +1,6 @@
+framework module Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests {
+  umbrella header "Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

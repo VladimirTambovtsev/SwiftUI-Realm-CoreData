@@ -6,11 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
+import FirebaseCore
 
 @main
 struct SwiftUI_Firebase_Realm_TodoApp: App {
     let persistenceController = PersistenceController.shared
 
+    init() {
+       FirebaseApp.configure()
+     }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

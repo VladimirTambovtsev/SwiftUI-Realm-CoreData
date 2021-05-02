@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8841E714A8C46090AF6C7FA1 /* Pods_SwiftUI_Firebase_Realm_TodoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAF194EA4FD6A42FDEBD3F41 /* Pods_SwiftUI_Firebase_Realm_TodoTests.framework */; };
+		8E6605342C6C4D358312D04A /* Pods_SwiftUI_Firebase_Realm_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87BB27C53C2FAB41D6F5FF5E /* Pods_SwiftUI_Firebase_Realm_Todo.framework */; };
+		BF8F9E9794339A8CB219289F /* Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CE9E340C61CB26D0555AFD /* Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework */; };
 		E79BE343263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */; };
 		E79BE345263DCA99009985BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE344263DCA99009985BB /* ContentView.swift */; };
 		E79BE347263DCA9D009985BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79BE346263DCA9D009985BB /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 		E79BE34F263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E79BE34D263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld */; };
 		E79BE35A263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE359263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoTests.swift */; };
 		E79BE365263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BE364263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift */; };
+		E7A6CCCC263E12A200E80B21 /* ButtonColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A6CCCB263E12A200E80B21 /* ButtonColor.swift */; };
+		E7A6CCCE263E13F600E80B21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7A6CCCD263E13F600E80B21 /* GoogleService-Info.plist */; };
+		E7A6CCD6263E1D5000E80B21 /* ButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A6CCD5263E1D5000E80B21 /* ButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0104F203840D7F52F5E26099 /* Pods-SwiftUI-Firebase-Realm-Todo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-Todo.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo/Pods-SwiftUI-Firebase-Realm-Todo.debug.xcconfig"; sourceTree = "<group>"; };
+		1BC081AD64EE4FFB21189988 /* Pods-SwiftUI-Firebase-Realm-TodoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-TodoTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-TodoTests/Pods-SwiftUI-Firebase-Realm-TodoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		623E0B5E86B63885A1D98059 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79FF79A8C9281D98CC772246 /* Pods-SwiftUI-Firebase-Realm-TodoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-TodoTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-TodoTests/Pods-SwiftUI-Firebase-Realm-TodoTests.release.xcconfig"; sourceTree = "<group>"; };
+		85CE9E340C61CB26D0555AFD /* Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BB27C53C2FAB41D6F5FF5E /* Pods_SwiftUI_Firebase_Realm_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Firebase_Realm_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E389A2E8F123A0C107B45FE /* Pods-SwiftUI-Firebase-Realm-Todo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-Todo.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo/Pods-SwiftUI-Firebase-Realm-Todo.release.xcconfig"; sourceTree = "<group>"; };
+		A19D012F4AB1C2008E65ECB7 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DAF194EA4FD6A42FDEBD3F41 /* Pods_SwiftUI_Firebase_Realm_TodoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Firebase_Realm_TodoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BE33F263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Firebase-Realm-Todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Firebase_Realm_TodoApp.swift; sourceTree = "<group>"; };
 		E79BE344263DCA99009985BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		E79BE360263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-Firebase-Realm-TodoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E79BE364263DCA9D009985BB /* SwiftUI_Firebase_Realm_TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Firebase_Realm_TodoUITests.swift; sourceTree = "<group>"; };
 		E79BE366263DCA9D009985BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A6CCCB263E12A200E80B21 /* ButtonColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonColor.swift; sourceTree = "<group>"; };
+		E7A6CCCD263E13F600E80B21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7A6CCD5263E1D5000E80B21 /* ButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E6605342C6C4D358312D04A /* Pods_SwiftUI_Firebase_Realm_Todo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8841E714A8C46090AF6C7FA1 /* Pods_SwiftUI_Firebase_Realm_TodoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF8F9E9794339A8CB219289F /* Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E26BAD370D0CA38875A0966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0104F203840D7F52F5E26099 /* Pods-SwiftUI-Firebase-Realm-Todo.debug.xcconfig */,
+				8E389A2E8F123A0C107B45FE /* Pods-SwiftUI-Firebase-Realm-Todo.release.xcconfig */,
+				623E0B5E86B63885A1D98059 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.debug.xcconfig */,
+				A19D012F4AB1C2008E65ECB7 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.release.xcconfig */,
+				1BC081AD64EE4FFB21189988 /* Pods-SwiftUI-Firebase-Realm-TodoTests.debug.xcconfig */,
+				79FF79A8C9281D98CC772246 /* Pods-SwiftUI-Firebase-Realm-TodoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB2EDBFADC174C4EE375D6F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87BB27C53C2FAB41D6F5FF5E /* Pods_SwiftUI_Firebase_Realm_Todo.framework */,
+				85CE9E340C61CB26D0555AFD /* Pods_SwiftUI_Firebase_Realm_Todo_SwiftUI_Firebase_Realm_TodoUITests.framework */,
+				DAF194EA4FD6A42FDEBD3F41 /* Pods_SwiftUI_Firebase_Realm_TodoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E79BE336263DCA99009985BB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				E79BE358263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoTests */,
 				E79BE363263DCA9D009985BB /* SwiftUI-Firebase-Realm-TodoUITests */,
 				E79BE340263DCA99009985BB /* Products */,
+				4E26BAD370D0CA38875A0966 /* Pods */,
+				BB2EDBFADC174C4EE375D6F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +145,15 @@
 		E79BE341263DCA99009985BB /* SwiftUI-Firebase-Realm-Todo */ = {
 			isa = PBXGroup;
 			children = (
+				E7A6CCD4263E1D3B00E80B21 /* ViewModel */,
+				E7A6CCCA263E127300E80B21 /* Model */,
+				E79BE37F263DCC21009985BB /* App */,
+				E79BE37B263DCBD3009985BB /* Views */,
 				E79BE342263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift */,
-				E79BE344263DCA99009985BB /* ContentView.swift */,
 				E79BE346263DCA9D009985BB /* Assets.xcassets */,
 				E79BE34B263DCA9D009985BB /* Persistence.swift */,
 				E79BE350263DCA9D009985BB /* Info.plist */,
+				E7A6CCCD263E13F600E80B21 /* GoogleService-Info.plist */,
 				E79BE34D263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld */,
 				E79BE348263DCA9D009985BB /* Preview Content */,
 			);
@@ -136,6 +186,37 @@
 			path = "SwiftUI-Firebase-Realm-TodoUITests";
 			sourceTree = "<group>";
 		};
+		E79BE37B263DCBD3009985BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E79BE344263DCA99009985BB /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E79BE37F263DCC21009985BB /* App */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E7A6CCCA263E127300E80B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E7A6CCCB263E12A200E80B21 /* ButtonColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E7A6CCD4263E1D3B00E80B21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E7A6CCD5263E1D5000E80B21 /* ButtonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E79BE369263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-Todo" */;
 			buildPhases = (
+				2EB3CB5F4861707DF77A8FB2 /* [CP] Check Pods Manifest.lock */,
 				E79BE33B263DCA99009985BB /* Sources */,
 				E79BE33C263DCA99009985BB /* Frameworks */,
 				E79BE33D263DCA99009985BB /* Resources */,
+				AC31A40312848D1BA7CFB831 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E79BE36C263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoTests" */;
 			buildPhases = (
+				F4D4DF03B9508EA5EAB8363C /* [CP] Check Pods Manifest.lock */,
 				E79BE351263DCA9D009985BB /* Sources */,
 				E79BE352263DCA9D009985BB /* Frameworks */,
 				E79BE353263DCA9D009985BB /* Resources */,
@@ -178,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E79BE36F263DCA9D009985BB /* Build configuration list for PBXNativeTarget "SwiftUI-Firebase-Realm-TodoUITests" */;
 			buildPhases = (
+				0F47E423C8600C3FACD936F1 /* [CP] Check Pods Manifest.lock */,
 				E79BE35C263DCA9D009985BB /* Sources */,
 				E79BE35D263DCA9D009985BB /* Frameworks */,
 				E79BE35E263DCA9D009985BB /* Resources */,
+				8BED1D2417716B0352D3B965 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +327,7 @@
 			files = (
 				E79BE34A263DCA9D009985BB /* Preview Assets.xcassets in Resources */,
 				E79BE347263DCA9D009985BB /* Assets.xcassets in Resources */,
+				E7A6CCCE263E13F600E80B21 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +347,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F47E423C8600C3FACD936F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB3CB5F4861707DF77A8FB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Firebase-Realm-Todo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BED1D2417716B0352D3B965 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests/Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC31A40312848D1BA7CFB831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo/Pods-SwiftUI-Firebase-Realm-Todo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo/Pods-SwiftUI-Firebase-Realm-Todo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Firebase-Realm-Todo/Pods-SwiftUI-Firebase-Realm-Todo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4D4DF03B9508EA5EAB8363C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Firebase-Realm-TodoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E79BE33B263DCA99009985BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +458,9 @@
 				E79BE34F263DCA9D009985BB /* SwiftUI_Firebase_Realm_Todo.xcdatamodeld in Sources */,
 				E79BE34C263DCA9D009985BB /* Persistence.swift in Sources */,
 				E79BE345263DCA99009985BB /* ContentView.swift in Sources */,
+				E7A6CCCC263E12A200E80B21 /* ButtonColor.swift in Sources */,
 				E79BE343263DCA99009985BB /* SwiftUI_Firebase_Realm_TodoApp.swift in Sources */,
+				E7A6CCD6263E1D5000E80B21 /* ButtonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +614,7 @@
 		};
 		E79BE36A263DCA9D009985BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0104F203840D7F52F5E26099 /* Pods-SwiftUI-Firebase-Realm-Todo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -444,6 +637,7 @@
 		};
 		E79BE36B263DCA9D009985BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E389A2E8F123A0C107B45FE /* Pods-SwiftUI-Firebase-Realm-Todo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +660,7 @@
 		};
 		E79BE36D263DCA9D009985BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC081AD64EE4FFB21189988 /* Pods-SwiftUI-Firebase-Realm-TodoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +683,7 @@
 		};
 		E79BE36E263DCA9D009985BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79FF79A8C9281D98CC772246 /* Pods-SwiftUI-Firebase-Realm-TodoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +706,7 @@
 		};
 		E79BE370263DCA9D009985BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 623E0B5E86B63885A1D98059 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +727,7 @@
 		};
 		E79BE371263DCA9D009985BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19D012F4AB1C2008E65ECB7 /* Pods-SwiftUI-Firebase-Realm-Todo-SwiftUI-Firebase-Realm-TodoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
