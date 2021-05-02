@@ -9,6 +9,11 @@ target 'SwiftUI-Firebase-Realm-Todo' do
   # add pods for desired Firebase products
   pod 'Firebase/Firestore'
   pod 'FirebaseFirestoreSwift'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'GoogleAnalytics'
+
+
 
   target 'SwiftUI-Firebase-Realm-TodoTests' do
     inherit! :search_paths

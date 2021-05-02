@@ -8,6 +8,8 @@
 import SwiftUI
 import Firebase
 import FirebaseCore
+import FirebaseCrashlytics
+
 
 @main
 struct SwiftUI_Firebase_Realm_TodoApp: App {

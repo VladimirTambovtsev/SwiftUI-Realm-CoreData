@@ -36,6 +36,11 @@ struct ContentView: View {
                         }
                         .onDelete(perform: deleteItems)
                 }
+                Button(action: {
+                    fatalError()
+                }) {
+                    Text("Enable Crashlytics")
+                }
             
             }
             .toolbar {
